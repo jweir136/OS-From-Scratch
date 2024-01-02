@@ -9,6 +9,9 @@ call print
 
 ;;;;;;;;;;; INCLUDE ALL THE REQUIRED FILES ;;;;;;;;;;;;;;;
 %include "print.asm"
+%include "gdt.s"
+%include "print_pm.s"
+%include "switch.s"
 
 ;;;;;;;;;;; DEFINE DATA ;;;;;;;;;;;;;;
 RM_SANITY_CHECK_MSG db "Running in 16-bit real mode", 0
