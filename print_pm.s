@@ -20,6 +20,6 @@ print_string_pm_loop:
 
     jmp print_string_pm_loop
 
-_print_string_pm_done:
+print_string_pm_done:
     popa
     ret
